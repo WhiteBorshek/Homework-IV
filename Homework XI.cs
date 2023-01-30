@@ -3,7 +3,7 @@
 [3, 7, 23, 12] -> 19
 [-4, -6, 89, 6] -> 0
 */
-Console.WriteLine("Введите размер массива");
+Console.WriteLine("Размер массива");
 int size = Convert.ToInt32(Console.ReadLine());
 int[] numbers = new int [size];
 FillArrayRandomNumbers(numbers);
